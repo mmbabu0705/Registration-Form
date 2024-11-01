@@ -224,15 +224,6 @@
     </dependencies>
   </dependencyManagement>
 
- <profile>
-    <id>sonar</id>
-    <activation>
-        <activeByDefault>true</activeByDefault>
-    </activation>
-    <properties>
-        <sonar.host.url>http://3.108.190.238:9000</sonar.host.url>
-    </properties>
- </profile>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
